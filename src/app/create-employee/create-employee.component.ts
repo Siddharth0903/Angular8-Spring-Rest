@@ -34,7 +34,8 @@ export class CreateEmployeeComponent implements OnInit {
     error => console.log(error));
   }
 
-  onSubmit() {
+
+  onSubmit(){
     this.submitted = true;
     this.save();    
   }
